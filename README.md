@@ -1,8 +1,20 @@
+<h1 align="center">等波纹法（Parks–McClellan）FIR 滤波器设计</h1>
 
-# 等波纹法（Parks–McClellan）FIR 滤波器设计- MATLAB实现
+<p align="center">
+  本仓库提供一个完整的 MATLAB 示例：使用 <b>等波纹法（Parks–McClellan）</b>设计线性相位 FIR 低通滤波器。 
+</p>  <p align="center">
+流程包含：<b>firpmord估算阶数 → firpm设计系数 → 频响/群延迟分析 → 自动加阶迭代</b>直到满足阻带衰减指标。
+</p>
 
-本仓库提供一个完整的 MATLAB 示例：使用 **等波纹法（Parks–McClellan）** 设计线性相位 FIR 低通滤波器。  
-流程包含：`firpmord` 估算阶数 → `firpm` 设计系数 → 频响/群延迟分析 → **自动加阶迭代**直到满足阻带衰减指标。
+<p align="center">
+  <img alt="Language" src="https://img.shields.io/badge/Language-MATLAB-orange?style=flat-square">
+  <img src="https://img.shields.io/github/repo-size/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=Repo%20Size" />
+  <a href="https://github.com/LiMingKuan-UESTC/Clustering-Matlab-Demo/stargazers">
+    <img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&logo=github&label=Stars" />
+  </a>
+</p>
+
+
 
 ## 功能概览
 
@@ -81,16 +93,11 @@
     └── figure2.png
 ```
 
-## 📜 使用说明
+## License
 
-本项目由 **LiMingKuan-UESTC** 制作，仅供交流、学习和展示使用。
+本项目基于 Apache-2.0 License 开源。
 
-作者不保证本项目的可靠性、稳定性、完整性或适用性。因使用本项目所产生的任何问题、损失或风险，均由使用者自行承担。
-
-如使用、修改、分发或引用本项目及其源代码，请明确注明原项目出处与作者信息：
-
-- 作者：LiMingKuan-UESTC
-- 仓库地址：https://github.com/LiMingKuan-UESTC/Firpm-Equiripple-Demo
+🤝 欢迎 Star ⭐ 和 Fork 🧑‍💻！
 
 ## 常见问题
 
